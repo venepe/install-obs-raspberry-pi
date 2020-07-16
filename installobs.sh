@@ -103,7 +103,7 @@ echo "-----------------------------------"
 git clone https://github.com/venepe/obs-ndi.git
 cd obs-ndi/
 mkdir build && cd build
-cmake -DLIBOBS_INCLUDE_DIR="/usr/share/obs/libobs/" -DCMAKE_INSTALL_PREFIX="$PREFIX" ..
+cmake -DLIBOBS_INCLUDE_DIR="/usr/share/obs/libobs/" -DCMAKE_INSTALL_PREFIX="$PREFIX" -DUSE_UBUNTU_FIX=true ..
 make -j4
 sudo make install
 cd ../../
