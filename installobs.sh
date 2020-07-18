@@ -70,7 +70,7 @@ sudo dpkg -i libfdk-aac-dev_0.1.4-2+b1_armhf.deb
 echo "-----------------------------------"
 echo "        Getting OBS Source"
 echo "-----------------------------------"
-git clone --recursive https://github.com/venepe/obs-studio.git
+git clone --recursive https://github.com/obsproject/obs-studio.git
 
 echo "-----------------------------------"
 echo "         Preparing build"
